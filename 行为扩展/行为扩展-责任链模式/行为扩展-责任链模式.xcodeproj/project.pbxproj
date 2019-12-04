@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B202176E2315631200869C25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B202176D2315631200869C25 /* AppDelegate.m */; };
+		B20217712315631200869C25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217702315631200869C25 /* ViewController.m */; };
+		B20217742315631200869C25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20217722315631200869C25 /* Main.storyboard */; };
+		B20217762315631300869C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B20217752315631300869C25 /* Assets.xcassets */; };
+		B20217792315631300869C25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B20217772315631300869C25 /* LaunchScreen.storyboard */; };
+		B202177C2315631300869C25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B202177B2315631300869C25 /* main.m */; };
+		B20217862315631300869C25 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217852315631300869C25 /* __________Tests.m */; };
+		B20217912315631300869C25 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217902315631300869C25 /* __________UITests.m */; };
+		B20217A42315655D00869C25 /* Attackhandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217A22315655D00869C25 /* Attackhandler.m */; };
+		B20217A8231565BB00869C25 /* Attack.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217A7231565BB00869C25 /* Attack.m */; };
+		B20217AB2315676000869C25 /* Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217AA2315676000869C25 /* Avatar.m */; };
+		B20217AE23156E4C00869C25 /* MetalArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217AD23156E4C00869C25 /* MetalArmor.m */; };
+		B20217B123156EEB00869C25 /* SwordAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217B023156EEB00869C25 /* SwordAttack.m */; };
+		B20217B423156FD500869C25 /* CrystalShield.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217B323156FD500869C25 /* CrystalShield.m */; };
+		B20217B72315709E00869C25 /* MagicaFireAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217B62315709E00869C25 /* MagicaFireAttack.m */; };
+		B20217BA2315711000869C25 /* LightingAttack.m in Sources */ = {isa = PBXBuildFile; fileRef = B20217B92315711000869C25 /* LightingAttack.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B20217822315631300869C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20217612315631200869C25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20217682315631200869C25;
+			remoteInfo = "行为扩展-责任链模式";
+		};
+		B202178D2315631300869C25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B20217612315631200869C25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B20217682315631200869C25;
+			remoteInfo = "行为扩展-责任链模式";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B20217692315631200869C25 /* 行为扩展-责任链模式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "行为扩展-责任链模式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B202176C2315631200869C25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B202176D2315631200869C25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B202176F2315631200869C25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B20217702315631200869C25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B20217732315631200869C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B20217752315631300869C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B20217782315631300869C25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B202177A2315631300869C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B202177B2315631300869C25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B20217812315631300869C25 /* 行为扩展-责任链模式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "行为扩展-责任链模式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20217852315631300869C25 /* __________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________Tests.m"; sourceTree = "<group>"; };
+		B20217872315631300869C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B202178C2315631300869C25 /* 行为扩展-责任链模式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "行为扩展-责任链模式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B20217902315631300869C25 /* __________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__________UITests.m"; sourceTree = "<group>"; };
+		B20217922315631300869C25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B20217A22315655D00869C25 /* Attackhandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attackhandler.m; sourceTree = "<group>"; };
+		B20217A32315655D00869C25 /* Attackhandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attackhandler.h; sourceTree = "<group>"; };
+		B20217A6231565BB00869C25 /* Attack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Attack.h; sourceTree = "<group>"; };
+		B20217A7231565BB00869C25 /* Attack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Attack.m; sourceTree = "<group>"; };
+		B20217A92315676000869C25 /* Avatar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Avatar.h; sourceTree = "<group>"; };
+		B20217AA2315676000869C25 /* Avatar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Avatar.m; sourceTree = "<group>"; };
+		B20217AC23156E4C00869C25 /* MetalArmor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MetalArmor.h; sourceTree = "<group>"; };
+		B20217AD23156E4C00869C25 /* MetalArmor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetalArmor.m; sourceTree = "<group>"; };
+		B20217AF23156EEB00869C25 /* SwordAttack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwordAttack.h; sourceTree = "<group>"; };
+		B20217B023156EEB00869C25 /* SwordAttack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwordAttack.m; sourceTree = "<group>"; };
+		B20217B223156FD500869C25 /* CrystalShield.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrystalShield.h; sourceTree = "<group>"; };
+		B20217B323156FD500869C25 /* CrystalShield.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalShield.m; sourceTree = "<group>"; };
+		B20217B52315709D00869C25 /* MagicaFireAttack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagicaFireAttack.h; sourceTree = "<group>"; };
+		B20217B62315709E00869C25 /* MagicaFireAttack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicaFireAttack.m; sourceTree = "<group>"; };
+		B20217B82315711000869C25 /* LightingAttack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LightingAttack.h; sourceTree = "<group>"; };
+		B20217B92315711000869C25 /* LightingAttack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LightingAttack.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B20217662315631200869C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B202177E2315631300869C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20217892315631300869C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B20217602315631200869C25 = {
+			isa = PBXGroup;
+			children = (
+				B202176B2315631200869C25 /* 行为扩展-责任链模式 */,
+				B20217842315631300869C25 /* 行为扩展-责任链模式Tests */,
+				B202178F2315631300869C25 /* 行为扩展-责任链模式UITests */,
+				B202176A2315631200869C25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B202176A2315631200869C25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B20217692315631200869C25 /* 行为扩展-责任链模式.app */,
+				B20217812315631300869C25 /* 行为扩展-责任链模式Tests.xctest */,
+				B202178C2315631300869C25 /* 行为扩展-责任链模式UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B202176B2315631200869C25 /* 行为扩展-责任链模式 */ = {
+			isa = PBXGroup;
+			children = (
+				B20217A52315657100869C25 /* attack */,
+				B20217A12315655D00869C25 /* handler */,
+				B202176C2315631200869C25 /* AppDelegate.h */,
+				B202176D2315631200869C25 /* AppDelegate.m */,
+				B202176F2315631200869C25 /* ViewController.h */,
+				B20217702315631200869C25 /* ViewController.m */,
+				B20217722315631200869C25 /* Main.storyboard */,
+				B20217752315631300869C25 /* Assets.xcassets */,
+				B20217772315631300869C25 /* LaunchScreen.storyboard */,
+				B202177A2315631300869C25 /* Info.plist */,
+				B202177B2315631300869C25 /* main.m */,
+			);
+			path = "行为扩展-责任链模式";
+			sourceTree = "<group>";
+		};
+		B20217842315631300869C25 /* 行为扩展-责任链模式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B20217852315631300869C25 /* __________Tests.m */,
+				B20217872315631300869C25 /* Info.plist */,
+			);
+			path = "行为扩展-责任链模式Tests";
+			sourceTree = "<group>";
+		};
+		B202178F2315631300869C25 /* 行为扩展-责任链模式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B20217902315631300869C25 /* __________UITests.m */,
+				B20217922315631300869C25 /* Info.plist */,
+			);
+			path = "行为扩展-责任链模式UITests";
+			sourceTree = "<group>";
+		};
+		B20217A12315655D00869C25 /* handler */ = {
+			isa = PBXGroup;
+			children = (
+				B20217A32315655D00869C25 /* Attackhandler.h */,
+				B20217A22315655D00869C25 /* Attackhandler.m */,
+				B20217A92315676000869C25 /* Avatar.h */,
+				B20217AA2315676000869C25 /* Avatar.m */,
+				B20217AC23156E4C00869C25 /* MetalArmor.h */,
+				B20217AD23156E4C00869C25 /* MetalArmor.m */,
+				B20217B223156FD500869C25 /* CrystalShield.h */,
+				B20217B323156FD500869C25 /* CrystalShield.m */,
+			);
+			path = handler;
+			sourceTree = "<group>";
+		};
+		B20217A52315657100869C25 /* attack */ = {
+			isa = PBXGroup;
+			children = (
+				B20217A6231565BB00869C25 /* Attack.h */,
+				B20217A7231565BB00869C25 /* Attack.m */,
+				B20217AF23156EEB00869C25 /* SwordAttack.h */,
+				B20217B023156EEB00869C25 /* SwordAttack.m */,
+				B20217B52315709D00869C25 /* MagicaFireAttack.h */,
+				B20217B62315709E00869C25 /* MagicaFireAttack.m */,
+				B20217B82315711000869C25 /* LightingAttack.h */,
+				B20217B92315711000869C25 /* LightingAttack.m */,
+			);
+			path = attack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B20217682315631200869C25 /* 行为扩展-责任链模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20217952315631300869C25 /* Build configuration list for PBXNativeTarget "行为扩展-责任链模式" */;
+			buildPhases = (
+				B20217652315631200869C25 /* Sources */,
+				B20217662315631200869C25 /* Frameworks */,
+				B20217672315631200869C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "行为扩展-责任链模式";
+			productName = "行为扩展-责任链模式";
+			productReference = B20217692315631200869C25 /* 行为扩展-责任链模式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B20217802315631300869C25 /* 行为扩展-责任链模式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20217982315631300869C25 /* Build configuration list for PBXNativeTarget "行为扩展-责任链模式Tests" */;
+			buildPhases = (
+				B202177D2315631300869C25 /* Sources */,
+				B202177E2315631300869C25 /* Frameworks */,
+				B202177F2315631300869C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B20217832315631300869C25 /* PBXTargetDependency */,
+			);
+			name = "行为扩展-责任链模式Tests";
+			productName = "行为扩展-责任链模式Tests";
+			productReference = B20217812315631300869C25 /* 行为扩展-责任链模式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B202178B2315631300869C25 /* 行为扩展-责任链模式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B202179B2315631300869C25 /* Build configuration list for PBXNativeTarget "行为扩展-责任链模式UITests" */;
+			buildPhases = (
+				B20217882315631300869C25 /* Sources */,
+				B20217892315631300869C25 /* Frameworks */,
+				B202178A2315631300869C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B202178E2315631300869C25 /* PBXTargetDependency */,
+			);
+			name = "行为扩展-责任链模式UITests";
+			productName = "行为扩展-责任链模式UITests";
+			productReference = B202178C2315631300869C25 /* 行为扩展-责任链模式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B20217612315631200869C25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = yFeii;
+				TargetAttributes = {
+					B20217682315631200869C25 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					B20217802315631300869C25 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B20217682315631200869C25;
+					};
+					B202178B2315631300869C25 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B20217682315631200869C25;
+					};
+				};
+			};
+			buildConfigurationList = B20217642315631200869C25 /* Build configuration list for PBXProject "行为扩展-责任链模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B20217602315631200869C25;
+			productRefGroup = B202176A2315631200869C25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B20217682315631200869C25 /* 行为扩展-责任链模式 */,
+				B20217802315631300869C25 /* 行为扩展-责任链模式Tests */,
+				B202178B2315631300869C25 /* 行为扩展-责任链模式UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B20217672315631200869C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20217792315631300869C25 /* LaunchScreen.storyboard in Resources */,
+				B20217762315631300869C25 /* Assets.xcassets in Resources */,
+				B20217742315631200869C25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B202177F2315631300869C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B202178A2315631300869C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B20217652315631200869C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20217AE23156E4C00869C25 /* MetalArmor.m in Sources */,
+				B20217AB2315676000869C25 /* Avatar.m in Sources */,
+				B20217A42315655D00869C25 /* Attackhandler.m in Sources */,
+				B20217A8231565BB00869C25 /* Attack.m in Sources */,
+				B20217712315631200869C25 /* ViewController.m in Sources */,
+				B20217B423156FD500869C25 /* CrystalShield.m in Sources */,
+				B202177C2315631300869C25 /* main.m in Sources */,
+				B20217BA2315711000869C25 /* LightingAttack.m in Sources */,
+				B202176E2315631200869C25 /* AppDelegate.m in Sources */,
+				B20217B123156EEB00869C25 /* SwordAttack.m in Sources */,
+				B20217B72315709E00869C25 /* MagicaFireAttack.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B202177D2315631300869C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20217862315631300869C25 /* __________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20217882315631300869C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20217912315631300869C25 /* __________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B20217832315631300869C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20217682315631200869C25 /* 行为扩展-责任链模式 */;
+			targetProxy = B20217822315631300869C25 /* PBXContainerItemProxy */;
+		};
+		B202178E2315631300869C25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B20217682315631200869C25 /* 行为扩展-责任链模式 */;
+			targetProxy = B202178D2315631300869C25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B20217722315631200869C25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20217732315631200869C25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B20217772315631300869C25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B20217782315631300869C25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B20217932315631300869C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B20217942315631300869C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B20217962315631300869C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "行为扩展-责任链模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B20217972315631300869C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "行为扩展-责任链模式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B20217992315631300869C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "行为扩展-责任链模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/行为扩展-责任链模式.app/行为扩展-责任链模式";
+			};
+			name = Debug;
+		};
+		B202179A2315631300869C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "行为扩展-责任链模式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/行为扩展-责任链模式.app/行为扩展-责任链模式";
+			};
+			name = Release;
+		};
+		B202179C2315631300869C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "行为扩展-责任链模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "行为扩展-责任链模式";
+			};
+			name = Debug;
+		};
+		B202179D2315631300869C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z96QWWAV3E;
+				INFOPLIST_FILE = "行为扩展-责任链模式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "UI.----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "行为扩展-责任链模式";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B20217642315631200869C25 /* Build configuration list for PBXProject "行为扩展-责任链模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20217932315631300869C25 /* Debug */,
+				B20217942315631300869C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20217952315631300869C25 /* Build configuration list for PBXNativeTarget "行为扩展-责任链模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20217962315631300869C25 /* Debug */,
+				B20217972315631300869C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20217982315631300869C25 /* Build configuration list for PBXNativeTarget "行为扩展-责任链模式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B20217992315631300869C25 /* Debug */,
+				B202179A2315631300869C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B202179B2315631300869C25 /* Build configuration list for PBXNativeTarget "行为扩展-责任链模式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B202179C2315631300869C25 /* Debug */,
+				B202179D2315631300869C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B20217612315631200869C25 /* Project object */;
+}

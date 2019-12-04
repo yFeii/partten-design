@@ -1,0 +1,16 @@
+//
+//  PrefixHeader.pch
+//  性能与对象访问-享元模式
+//
+//  Created by yFeii on 2019/8/29.
+//  Copyright © 2019 yFeii. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#import "ExtrinsicFlowerState.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

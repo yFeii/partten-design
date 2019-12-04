@@ -34,6 +34,7 @@ class ViewController: UIViewController {
         y.getColor()
         y.talk()
 
+        UITableView
     }
 }
 
